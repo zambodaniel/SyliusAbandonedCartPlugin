@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\Acme\SyliusExamplePlugin\DependencyInjection;
+namespace Tests\ZamboDaniel\SyliusAbandonedCartPlugin\DependencyInjection;
 
-use Acme\SyliusExamplePlugin\DependencyInjection\Configuration;
+use ZamboDaniel\SyliusAbandonedCartPlugin\DependencyInjection\Configuration;
 use Matthias\SymfonyConfigTest\PhpUnit\ConfigurationTestCaseTrait;
 use PHPUnit\Framework\TestCase;
 
@@ -29,7 +29,7 @@ final class ConfigurationTest extends TestCase
             [
                 [], // no values at all
             ],
-            '/The child (config|node) "option" (under|at path) "acme_sylius_example" must be configured/',
+            '/The child (config|node) "option" (under|at path) "zambo_daniel_sylius_abandoned_cart" must be configured/',
             true
         );
     }

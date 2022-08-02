@@ -1,0 +1,2 @@
+zambo_daniel_sylius_abandoned_cart:
+    resource: "@ZamboDanielSyliusAbandonedCartPlugin/Resources/config/routes.yaml"
